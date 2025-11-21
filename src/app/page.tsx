@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -7,7 +7,7 @@ import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
@@ -77,28 +77,28 @@ export default function WaitlistPage() {
           animationType="slide-up"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Smart Notifications",
               description: "AI-powered notifications that learn your preferences and deliver the right information at the perfect moment",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763686528284-etsq53lz.jpg",
               imageAlt: "Smart notification system"
             },
             {
-              id: "2",
+              id: 2,
               title: "Advanced Analytics",
               description: "Get deep insights into your productivity patterns with beautiful charts and actionable recommendations",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763686529121-k25nepjp.jpg",
               imageAlt: "Analytics dashboard"
             },
             {
-              id: "3",
+              id: 3,
               title: "Seamless Integration",
               description: "Connect with all your favorite tools and services through our extensive integration ecosystem",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763686529834-tgrrpa43.jpg",
               imageAlt: "App integrations"
             },
             {
-              id: "4",
+              id: 4,
               title: "Enterprise Security",
               description: "Bank-level encryption and security measures to keep your data safe and private",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763686530533-3nwzgyxi.jpg",
@@ -334,7 +334,7 @@ export default function WaitlistPage() {
       
       <div id="footer" data-section="footer">
         <FooterSocial
-          brandName="WaitlistApp"
+          logoText="WaitlistApp"
           copyrightText="© 2025 WaitlistApp, Inc."
           columns={[
             {
